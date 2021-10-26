@@ -1,0 +1,386 @@
+<!--Pulled from: https://mdbootstrap.com/docs/standard/extended/bootstrap-address-form/-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Test Form Filler</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="/custom.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+    <!-- Registrant Block -->
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <div class="card mb-4">
+                <div class="card-header py-3">
+                    <h5 class="mb-0">Registrant</h5>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Name</label>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-outline">
+                                    <input type="text" placeholder="First Name" aria-label="First Name" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-outline">
+                                    <input type="text" placeholder="Last Name" aria-label="Last Name" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Email</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="email" placeholder="Email" class="form-control" />
+                            </div>
+                        </div>
+
+                        <!-- Number input -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Number</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="tel" placeholder="Number" class="form-control" />
+                            </div>
+                        </div>
+
+                        <!-- Country -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Country</label>
+                            </div>
+
+                            <div class="col-8">
+                                <select class="form-select">
+                                    <option>United States</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Address</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="text" placeholder="Street Address" class="form-control street1" />
+                            </div>
+                        </div>
+
+                        <!-- City, State and ZIP -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>City, State and ZIP Code</label>
+                            </div>
+
+                            <div class="col-4">
+                                <input type="text" placeholder="City" class="form-control city" />
+                            </div>
+
+                            <div class="col-2">
+                                <select class="form-select state">
+                                    <option>State</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AK">AK</option>
+                                    <option value="AR">AR</option>
+                                    <option value="AZ">AZ</option>
+                                    <option value="CA">CA</option>
+                                    <option value="CO">CO</option>
+                                    <option value="CT">CT</option>
+                                    <option value="DC">DC</option>
+                                    <option value="DE">DE</option>
+                                    <option value="FL">FL</option>
+                                    <option value="GA">GA</option>
+                                    <option value="HI">HI</option>
+                                    <option value="IA">IA</option>
+                                    <option value="ID">ID</option>
+                                    <option value="IL">IL</option>
+                                    <option value="IN">IN</option>
+                                    <option value="KS">KS</option>
+                                    <option value="KY">KY</option>
+                                    <option value="LA">LA</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MD">MD</option>
+                                    <option value="ME">ME</option>
+                                    <option value="MI">MI</option>
+                                    <option value="MN">MN</option>
+                                    <option value="MO">MO</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="NC">NC</option>
+                                    <option value="NE">NE</option>
+                                    <option value="NH">NH</option>
+                                    <option value="NJ">NJ</option>
+                                    <option value="NM">NM</option>
+                                    <option value="NV">NV</option>
+                                    <option value="NY">NY</option>
+                                    <option value="ND">ND</option>
+                                    <option value="OH">OH</option>
+                                    <option value="OK">OK</option>
+                                    <option value="OR">OR</option>
+                                    <option value="PA">PA</option>
+                                    <option value="RI">RI</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SD">SD</option>
+                                    <option value="TN">TN</option>
+                                    <option value="TX">TX</option>
+                                    <option value="UT">UT</option>
+                                    <option value="VT">VT</option>
+                                    <option value="VA">VA</option>
+                                    <option value="WA">WA</option>
+                                    <option value="WI">WI</option>
+                                    <option value="WV">WV</option>
+                                    <option value="WY">WY</option>
+                                </select>
+                            </div>
+
+                            <div class="col-2">
+                                <input type="text" placeholder="ZIP" class="form-control zip" />
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Billing Block -->
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <div class="card mb-4">
+                <div class="card-header py-3">
+                    <h5 class="mb-0">Billing</h5>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <!-- 2 column grid layout with text inputs for the first and last names -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Name</label>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-outline">
+                                    <input type="text" placeholder="First Name" aria-label="First Name" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-outline">
+                                    <input type="text" placeholder="Last Name" aria-label="Last Name" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- `Card Number` input -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Card Number</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="text" placeholder="Card Number" class="form-control cc-number" />
+                            </div>
+                        </div>
+
+                        <!-- Expiration Date -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Expiration Date</label>
+                            </div>
+
+                            <div class="col-3">
+                                <select class="form-select date-month">
+                                    <option>Month</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+
+                            <div class="col-3">
+                                <select class="form-select date-year">
+                                    <option>Year</option>
+                                    <option value="2021">2021</option>
+                                    <option value="2022">2022</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                </select>
+                            </div>
+
+                            <div class="col-2">
+                                <input type="text" placeholder="CVV" aria-label="Credit Card CVV" class="form-control" />
+                            </div>
+                        </div>
+
+                        <!-- Country -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Country</label>
+                            </div>
+
+                            <div class="col-8">
+                                <select class="form-select">
+                                    <option>United States</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Address -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Address</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="text" placeholder="Street Address" class="form-control street1" />
+                            </div>
+                        </div>
+
+                        <!-- City, State and ZIP -->
+
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>City, State and ZIP Code</label>
+                            </div>
+
+                            <div class="col-4">
+                                <input type="text" placeholder="City" class="form-control city" />
+                            </div>
+
+                            <div class="col-2">
+                                <select class="form-select state">
+                                    <option>State</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AK">AK</option>
+                                    <option value="AR">AR</option>
+                                    <option value="AZ">AZ</option>
+                                    <option value="CA">CA</option>
+                                    <option value="CO">CO</option>
+                                    <option value="CT">CT</option>
+                                    <option value="DC">DC</option>
+                                    <option value="DE">DE</option>
+                                    <option value="FL">FL</option>
+                                    <option value="GA">GA</option>
+                                    <option value="HI">HI</option>
+                                    <option value="IA">IA</option>
+                                    <option value="ID">ID</option>
+                                    <option value="IL">IL</option>
+                                    <option value="IN">IN</option>
+                                    <option value="KS">KS</option>
+                                    <option value="KY">KY</option>
+                                    <option value="LA">LA</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MD">MD</option>
+                                    <option value="ME">ME</option>
+                                    <option value="MI">MI</option>
+                                    <option value="MN">MN</option>
+                                    <option value="MO">MO</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="NC">NC</option>
+                                    <option value="NE">NE</option>
+                                    <option value="NH">NH</option>
+                                    <option value="NJ">NJ</option>
+                                    <option value="NM">NM</option>
+                                    <option value="NV">NV</option>
+                                    <option value="NY">NY</option>
+                                    <option value="ND">ND</option>
+                                    <option value="OH">OH</option>
+                                    <option value="OK">OK</option>
+                                    <option value="OR">OR</option>
+                                    <option value="PA">PA</option>
+                                    <option value="RI">RI</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SD">SD</option>
+                                    <option value="TN">TN</option>
+                                    <option value="TX">TX</option>
+                                    <option value="UT">UT</option>
+                                    <option value="VT">VT</option>
+                                    <option value="VA">VA</option>
+                                    <option value="WA">WA</option>
+                                    <option value="WI">WI</option>
+                                    <option value="WV">WV</option>
+                                    <option value="WY">WY</option>
+                                </select>
+                            </div>
+
+                            <div class="col-2">
+                                <input type="text" placeholder="ZIP" class="form-control zip" />
+                            </div>
+                        </div>
+
+                        <!-- Email input -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Email</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="email" placeholder="Email" class="form-control" />
+                            </div>
+                        </div>
+
+                        <!-- `Mobile Number` input -->
+                        <div class="row mb-4">
+                            <div class="col-4">
+                                <label>Mobile Number</label>
+                            </div>
+
+                            <div class="col-8">
+                                <input type="tel" placeholder="Number" class="form-control" />
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="form_filler.js"></script>
+    </body>
+</html>
